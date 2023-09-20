@@ -1,0 +1,51 @@
+DU LIEU:
+
+5 QUoc Gia: VietNam (1), ThaiLand(2), India(3), USA(4), Japan(5).
+
+Tạm thời mỗi quốc gia tìm 2 sự kiện, mỗi sự kiện bao gồm 5 hình ảnh(Mỗi hình ảnh của 1 sự kiện phải được đặt tên: tensukien_1.jpg),
+1 đoạn mô tả ngắn của sự kiện, và thời gian diễn ra theo format (yyyy-mm-dd). YÊU CẦU TÊN SỰ KIỆN VÀ MÔ TẢ PHẢI ĐƯỢC VIẾT BẰNG TIẾNG ANH
+
+
+
+Ví dụ về một sự kiện:
+[name]: Mid-Autumn Festival (tên sự kiện)
+[countryID]:  (quốc gia tổ chức sự kiện)
+[short-description]: The Mid-Autumn Festival, also known as the Moon Festival or Mooncake Festival, 
+is a traditional festival celebrated in Chinese culture. (mô tả ngắn)
+[description]: It is one of the most important holidays in Chinese culture; its popularity is on par with that of Chinese New Year. 
+The history of the Mid-Autumn Festival dates back over 3,000 years.The festival is held on the 15th day of the 8th month 
+of the Chinese lunisolar calendar with a full moon at night, corresponding to mid-September to early October of the Gregorian calendar.
+On this day, the Chinese believe that the Moon is at its brightest and fullest size, coinciding with harvest time in the middle 
+of Autumn. 
+
+Lanterns of all size and shapes, are carried and displayed – symbolic beacons that light people's path to prosperity and good fortune.
+ Mooncakes, a rich pastry typically filled with sweet-bean, egg yolk, meat or lotus-seed paste, are traditionally eaten during this
+  festival.The Mid-Autumn Festival is based on the legend of Chang'e, the Moon goddess in Chinese mythology. (mô tả dài)
+[Date_Start]: 2023-9-23 
+[image_path]: midautumn_1.jpg, midautumn_2.jpg, 3, 4, 5   (tên file ảnh) 
+
+form đây nhé:
+[name]:
+[countryID]:
+[short-description]:
+[description]:
+[date_start]:
+[image_path]:
+[image_description]:
+
+Tôi nghĩ nên tìm những sự kiện mà chỉ hay có ở 1 quốc gia như kiểu tạt nước ở thái lan,... chứ tết nguyên đán hay trung thu thì nhiều quốc gia có -> thì sẽ xung đột với cơ sở dữ liệu bởi mỗi sự kiện chỉ đi với một quốc gia thôi, cái bên trên là tôi lấy ví dụ nhé. tìm được 5 cái ảnh ứng với mỗi lễ hội thì ông đổi tên như trên và lưu vào file assets/img nhé.
+
+Blog: 
+
+_ Cac bai viet lien quan toi Festival
+
+tìm các bài viết liên quan tới festival. Tạm thời chỉ cần 3 bài thôi và nhớ có tựa đề, ngày đăng, nội dung và một cái ảnh liên quan nhé
+form như kiểu ở trên:
+
+[Title]: 
+[Publish_Date]:
+[Content]:
+[Image_Path]:
+
+format được theo cái insert into table festivals(Name, CountryID, Short-Description, Description,DateStart,imagePath)
+tìm và note lại hết vào đây nhé, từ dòng tiếp theo đổ xuống
