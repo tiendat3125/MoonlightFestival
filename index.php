@@ -1,1 +1,4 @@
-//include header footer main
+<?php
+//include header & footer
+?>
+Đây là trang chủ
